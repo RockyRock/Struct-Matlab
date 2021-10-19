@@ -3,7 +3,7 @@ function s = setsubfield(s, fullfield, val)
 %
 % R. Guicherd - Oct 2020
 %% Function source code
- % Split field into cell array of sub-fields
+% Split field into cell array of sub-fields
 if ischar(fullfield)
     fullfield = regexp(fullfield, '\.', 'split');
 end
